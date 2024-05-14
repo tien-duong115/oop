@@ -1,0 +1,10 @@
+Project Requirement/Description paragraph:
+"Build an Application that can record video and snap-shot using system camera. Image/Video data will then upload onto a webpage with generate shareable link."
+
+OOP Design:
+    Object: CameraScreen
+        method: capture_video()
+        method: capture_snapshot()
+    Object: FileSharer
+        method: filepath()
+        method: api()
